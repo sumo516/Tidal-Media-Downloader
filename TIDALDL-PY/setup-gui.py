@@ -1,3 +1,4 @@
+
 from setuptools import setup, find_packages
 setup(
     name = 'tidal-gui',
@@ -14,3 +15,5 @@ setup(
     install_requires=["tidal-dl"],
     entry_points={'console_scripts': [ 'tidal-gui = tidal_gui:main', ]}
 )
+
+
